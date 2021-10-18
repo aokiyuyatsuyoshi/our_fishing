@@ -14,7 +14,6 @@ class MapsDemoState extends State<MapsDemo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // ここを追加
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled1/MapPage/Google_Map_widget.dart';
+import 'package:untitled1/widget/posting_floating_button.dart';
 
 class MapPage extends StatelessWidget {
   @override
@@ -15,6 +16,8 @@ class MapPage extends StatelessWidget {
           ),
         ],
       ),
+      floatingActionButton: postFloatingActionButton(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
