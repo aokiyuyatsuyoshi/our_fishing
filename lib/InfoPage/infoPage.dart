@@ -75,6 +75,7 @@ Widget _AnimationTopNewArrivalNewsText() {
           WavyAnimatedText('新着のニュース'),
         ],
         isRepeatingAnimation: true,
+        totalRepeatCount: 100,
         onTap: () {
           print("Tap Event");
         },
