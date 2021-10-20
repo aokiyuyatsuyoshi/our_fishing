@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:shimmer/shimmer.dart';
 
 class postFloatingActionButton extends StatelessWidget {
   @override
@@ -7,7 +8,11 @@ class postFloatingActionButton extends StatelessWidget {
     return FloatingActionButton.extended(
       onPressed: () {},
       icon: new Icon(Icons.add),
-      label: Text("情報を共有する"),
+      label: Shimmer.fromColors(
+        baseColor: Colors.white,
+        highlightColor: Colors.lightBlueAccent,
+        child: Text("情報を共有する"),
+      ),
     );
   }
 }
