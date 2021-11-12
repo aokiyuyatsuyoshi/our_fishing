@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:untitled1/MapPage/Map_Page.dart';
-import 'package:untitled1/PersonalPage/Personal_Page.dart';
+import 'package:untitled1/Info_Page/infoPage.dart';
+import 'package:untitled1/Map_Page/Map_Page.dart';
+import 'package:untitled1/Personal_Page/Personal_Page.dart';
 import 'Toppage_Widget.dart';
-import 'package:untitled1/InfoPage/infoPage.dart';
 import 'package:untitled1/provider_model.dart';
 
 // final selectedIndex = StateProvider((ref) => 0); //グローバルに定義
