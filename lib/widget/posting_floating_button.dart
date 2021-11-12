@@ -1,12 +1,20 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
+import 'package:untitled1/share_post/share_post_page.dart';
 
 class postFloatingActionButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FloatingActionButton.extended(
-      onPressed: () {},
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => SharePostPage(),
+          ),
+        );
+      },
       icon: new Icon(Icons.add),
       label: Shimmer.fromColors(
         baseColor: Colors.white,
